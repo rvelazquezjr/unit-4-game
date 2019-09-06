@@ -16,9 +16,7 @@ $(document).ready(function() {
     $("#numberWins").text(wins);
     $("#numberLosses").text(losses);
 
-    function popCrystal(evt, getCrystal) {
-        document.getElementById(getCrystal).style.float = "right";
-        }
+    
     
     function reset() {
         random = Math.floor(Math.random()*102+19);
